@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bomb Defuser</title>
     <meta name="description" content="Defuse the bomb — static deploy" />
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/assets/styles-BmWGFn9T.css" />
-    <link rel="modulepreload" href="/assets/routes-CkhYJp_M.js" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./assets/styles-BmWGFn9T.css" />
+    <link rel="modulepreload" href="./assets/routes-CkhYJp_M.js" />
+    <script>
+      // SPA base for GitHub Pages (/bomb-defuser/) vs Vercel (/)
+      (function () {
+        var p = location.pathname;
+        if (p.indexOf('/bomb-defuser') === 0) {
+          var b = document.createElement('base');
+          b.href = '/bomb-defuser/';
+          document.head.prepend(b);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/assets/index-CctbiIQ1.js"></script>
+    <script type="module" src="./assets/index-CctbiIQ1.js"></script>
   </body>
 </html>
