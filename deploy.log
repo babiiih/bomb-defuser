@@ -1,0 +1,17 @@
+Vercel CLI 54.7.1 (Node.js 24.15.0)
+Retrieving project…
+Deploying babiiihs-projects/bomb-defuser
+Uploading [--------------------] (0.0B/456.1KB)
+Uploading [=====---------------] (129.6KB/456.1KB)
+Uploading [==========----------] (229.9KB/456.1KB)
+Uploading [===============-----] (343.7KB/456.1KB)
+Uploading [====================] (456.1KB/456.1KB)
+  Inspect     https://vercel.com/babiiihs-projects/bomb-defuser/5b53TEHM6GH8UG4jnuEMcMg1vT2F
+▲ Production  https://bomb-defuser-3he69mn5o-babiiihs-projects.vercel.app
+https://bomb-defuser-3he69mn5o-babiiihs-projects.vercel.appBuilding…
+Building…
+[2K[1A[2K[G▲ Production  https://bomb-defuser-3he69mn5o-babiiihs-projects.vercel.app
+Completing…
+▲ Aliased     https://bomb-defuser-five.vercel.app
+
+✓ Ready in 6s
